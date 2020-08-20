@@ -1,4 +1,7 @@
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Hknight-official_TheSieuToc-WebApi&metric=alert_status)](https://sonarcloud.io/dashboard?id=Hknight-official_TheSieuToc-WebApi)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Hknight-official_TheSieuToc-WebApi&metric=ncloc)](https://sonarcloud.io/dashboard?id=Hknight-official_TheSieuToc-WebApi)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Hknight-official_TheSieuToc-WebApi&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=Hknight-official_TheSieuToc-WebApi)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Hknight-official_TheSieuToc-WebApi&metric=security_rating)](https://sonarcloud.io/dashboard?id=Hknight-official_TheSieuToc-WebApi)
 # TheSieuToc
 > Api nạp thẻ của website Thesieutoc 
 
