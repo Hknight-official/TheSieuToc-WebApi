@@ -94,7 +94,7 @@
 				</form>
 				<script type="text/javascript">
 					$("#myform").submit(function(e) {
-						$("#status").html("<img src='./assets/load.gif' width='30%' />");
+						$("#status").html("<img src='./images/load.gif' width='30%' />");
 						e.preventDefault();
 						$.ajax({
 							url: "./ajax/card.php",
