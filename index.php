@@ -41,18 +41,17 @@
 							</tr>
 							<tr>
 								<td><label>Loại thẻ:</label></td>
-								<td><select class="form-control" name="card_type" required>
-										<option value="">Chọn loại thẻ</option>
-										<?php
-										$obj = json_decode(file_get_contents("https://thesieutoc.net/card_info.php"), true);
-										$length = count($obj);
-										for ($i = 0; $i < $length; $i++) {
-											if ($obj[$i]['status'] == 1) {
-												echo '<option value="' . $obj[$i]['name'] . '">' . $obj[$i]['name'] . ' (' . $obj[$i]['chietkhau'] . '%)</option> ';
-											}
-										}
-										?>
-									</select></td>
+								<td><select class="form-control" name="card_type" required="">
+    <option value="">Chọn loại thẻ</option>
+    <option value="Viettel">Viettel (28%)</option>
+    <option value="Vinaphone">Vinaphone (31%)</option>
+    <option value="Vietnamobile">Vietnamobile (30%)</option>
+    <option value="Mobifone">Mobifone (31%)</option>
+    <option value="Gate">Gate (32%)</option>
+    <option value="Vcoin">Vcoin (29%)</option>
+    <option value="Zing">Zing (25%)</option>
+</select>
+</td>
 							</tr>
 							<tr>
 								<td><label>Mệnh giá:</label></td>
