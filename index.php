@@ -42,24 +42,24 @@
 							<tr>
 								<td><label>Loại thẻ:</label></td>
 								<td><select class="form-control" name="card_type" required="">
-    <option value="">Chọn loại thẻ</option>
-    <option value="Viettel">Viettel (28%)</option>
-    <option value="Vinaphone">Vinaphone (31%)</option>
-    <option value="Vietnamobile">Vietnamobile (30%)</option>
-    <option value="Mobifone">Mobifone (31%)</option>
-    <option value="Gate">Gate (32%)</option>
-    <option value="Vcoin">Vcoin (29%)</option>
-    <option value="Zing">Zing (25%)</option>
-</select>
-</td>
+								    <option value="">Chọn loại thẻ</option>
+								    <option value="Viettel">Viettel</option>
+								    <option value="Vinaphone">Vinaphone</option>
+								    <option value="Vietnamobile">Vietnamobile</option>
+								    <option value="Mobifone">Mobifone</option>
+								    <option value="Gate">Gate</option>
+								    <option value="Vcoin">Vcoin</option>
+								    <option value="Zing">Zing</option>
+								</select>
+								</td>
 							</tr>
 							<tr>
 								<td><label>Mệnh giá:</label></td>
 								<td><select class="form-control" name="card_amount" required>
 										<option value="">Chọn mệnh giá</option>
-										<option value="10000">10.000 (<?php echo $obj[1]['Chietkhau-123']; ?>%)</option>
-										<option value="20000">20.000 (<?php echo $obj[1]['Chietkhau-123']; ?>%)</option>
-										<option value="30000">30.000 (<?php echo $obj[1]['Chietkhau-123']; ?>%)</option>
+										<option value="10000">10.000</option>
+										<option value="20000">20.000</option>
+										<option value="30000">30.000</option>
 										<option value="50000">50.000</option>
 										<option value="100000">100.000</option>
 										<option value="200000">200.000</option>
